@@ -1,0 +1,77 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-image: url(./fundonumeros..jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-shadow: 2px 1px 3px rgb(0, 0, 0);
+    text-align: center;
+    border: 2px solid #ff6347;
+    border-radius: 15px;
+    padding: 20px;
+    background: linear-gradient(rgba(0, 0, 255, 0.623), rgba(255, 255, 0, 0.582));
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.801);
+    
+}
+
+h1 {
+    color: #ff6347;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#question {
+    font-size: 2em;
+    margin: 20px 0;
+    color: #ffffff;
+    
+}
+
+input {
+    padding: 10px;
+    font-size: 1.5em;
+    border: 2px solid #ff6347;
+    border-radius: 5px;
+    width: 60%;
+    max-width: 200px;
+    margin-top: 10px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #4682b4;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: #fff;
+    background-color: #ff6347;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e53e3e;
+}
+
+#timer, #score {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+#timer {
+    font-weight: bold;
+}
+
